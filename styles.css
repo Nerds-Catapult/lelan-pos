@@ -15,30 +15,30 @@ header {
 
 }
 
-img {
+/* img {
     mix-blend-mode: multiply;
 
-}
+} */
 
 #logo {
-    width: max(100px, 18vw);
-    height: 137px;
+    width: 100px;
+    height: 100px;
     object-fit: cover;
-    margin-left: -20px;
-    transform: rotate(-2deg);
+    /* margin-left: -20px; */
+    transform: rotate(2deg);
     margin-top: -18px;
 }
 
 figcaption {
     font-style: italic;
     margin-left: 10px;
-    ;
+    padding: -100px;
 }
 
 .navbar {
-    width: 50%;
-    max-width: 300px;
-    height: 50px;
+    display: flex;
+    gap: 40px;
+    align-items: center;
 }
 
 .navbar>a {
@@ -67,4 +67,8 @@ a {
     object-fit: cover;
     height: 50%;
     aspect-ratio: 35/4;
+}
+img{
+    width: 100%;
+    height: 100%;
 }
