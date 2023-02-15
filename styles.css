@@ -1,60 +1,70 @@
-body{
-background: skyblue;
-height:100vh;
-width:100%;
-margin:0;
+body {
+    background: skyblue;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
 }
-header{
+
+header {
     background-color: aliceblue;
-    opacity:0.9;
-    width:100%;
-    height:200px;
-display:flex;
-justify-content:space-between;
+    opacity: 0.9;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
 
 }
-    img{
-        mix-blend-mode:multiply;
 
-    }
-#logo{
-    width:max(100px, 18vw);
-    height:137px;
+img {
+    mix-blend-mode: multiply;
+
+}
+
+#logo {
+    width: max(100px, 18vw);
+    height: 137px;
     object-fit: cover;
-    margin-left:-20px;
-    transform:rotate(-2deg);
+    margin-left: -20px;
+    transform: rotate(-2deg);
     margin-top: -18px;
 }
-figcaption{
+
+figcaption {
     font-style: italic;
-    margin-left: 10px;;
+    margin-left: 10px;
+    ;
 }
-.navbar{
-    width:50%;
+
+.navbar {
+    width: 50%;
     max-width: 300px;
-    height:50px;
+    height: 50px;
 }
-.navbar > a{
-    display:flex;
-    justify-content:space-evenly;
+
+.navbar>a {
+    display: flex;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: center;
     padding-inline-start: 0;
     margin-block: 0;
     height: 100%;
 }
-.navbar > a:hover{
-    
-    color:skyblue;
-    cursor:pointer;
+
+.navbar>a:hover {
+
+    color: skyblue;
+    cursor: pointer;
 }
-a{
-    color:inherit;
+
+a {
+    color: inherit;
     text-decoration: none;
     font-weight: 400;
 }
-.image{
-  object-fit: cover;
-  height:50%;
-aspect-ratio:35/4;
+
+.image {
+    object-fit: cover;
+    height: 50%;
+    aspect-ratio: 35/4;
 }
