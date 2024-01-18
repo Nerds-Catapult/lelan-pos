@@ -1,7 +1,9 @@
 
 function Signup() {
     return (
-        <div>This is the signup screen</div>
+        <main>
+            This is the signup screen
+        </main>
     );
 }
 
